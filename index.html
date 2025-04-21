@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tap to Reveal 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1 id="intro" class="clickable">👋 Tap me if you're ready...</h1>
+
+    <div id="step1" class="hidden clickable">😏 Okay okay, you're here. But are you ready for the TRUTH?</div>
+
+    <div id="step2" class="hidden clickable">💬 Btw, I've scientifically proven I'm in your head at least 3x a day.</div>
+
+    <div id="step3" class="hidden clickable">🫣 Wanna argue? Click "No". Oh wait... where did it go?</div>
+
+    <div class="buttons hidden" id="trapButtons">
+      <button id="yesBtn" onclick="revealLove()">Yes 😇</button>
+      <button id="noBtn" onmouseover="floatNo()" onclick="floatNo()">No 😤</button>
+    </div>
+
+    <div id="finalMsg" class="hidden">🧠 Now you'll think about this all day. Mission successful. 💋</div>
+
+    <div id="cuteImg" class="hidden">
+      <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="Cute gif">
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
